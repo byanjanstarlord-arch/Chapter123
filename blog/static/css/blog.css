@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    width: 60%;
+    float: left;
+}
+
+#sidebar {
+    width: 30%;
+    float: right;
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+.status-badge {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+.status-badge-active {
+    background-color: #e7f7ed;
+    color: #1f7a3a;
+    border: 1px solid #1f7a3a;
+}
+
+.status-badge-inactive {
+    background-color: #fdecea;
+    color: #b42318;
+    border: 1px solid #b42318;
+}
